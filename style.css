@@ -1,6 +1,7 @@
 body {
   background-color: #DAA520;
   font-family: 'DM Sans', sans-serif;
+  align-content: initial;
 }
 
 .navbar {
@@ -8,16 +9,16 @@ body {
   background-color: #DAA520;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  width: 75%;
 }
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
+  /* float: left; */
   display: block;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+  text-align: left;
+  padding: 10px 10px;
   text-decoration: none;
 }
 
@@ -27,8 +28,113 @@ body {
   color: black;
 }
 
-/* Main content */
-.main {
-  margin-top: 60px; /* Add a top margin to avoid content overlay */
-  margin-left: 15px;
+.container {
+  margin-top: 60px;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 2.5rem; 
 }
+
+.row {
+  align-self: left;
+  /* margin-left: 5px; */
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  font-family: 'DM Sans', serif;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+/* .row.topper {
+  margin-top: 60px;
+  color: blue;
+  place-content: left;
+} */
+
+img {
+  border-radius: 50%;
+}
+
+.div.col-12{
+  align-self: flex-start;
+}
+
+#tabel {
+  border-collapse: collapse;
+  width: 50%
+}
+
+#tabel tr:nth-child(even) {
+  background-color: #DAA480;
+}
+
+
+#tabel th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+/* .grid-container {
+   margin-top: 60px;
+  margin-left: 5px;
+  display: grid;
+  grid-template-columns: 150px, 150px, 150px, 150px;
+  grid-auto-rows: 200px;
+  grid-template-areas: 
+  'header, header, header header'
+  'main main main2 main2'
+  'footer footer footer footer';
+  align-items: start;
+  grid-template-columns: auto auto auto auto; */
+  /* grid-gap: 100px;
+  padding: 10px;
+  height: 10px;
+} */
+
+/* .grid-container > div {
+  text-align: justify;
+  padding: 20px 0;
+  font-size: 16px;
+  max-height: 150px;
+} */
+
+/* .grid-container > div > img {
+  border-radius: 50%;
+} */
+
+/* .footer {
+  grid-area: footer;
+  align-self: center;
+  height: 50px;
+  background-color: lightcoral;
+} */
+
+
+/* .basis {
+  grid-area: main;
+  align-self: end;
+  justify-self: end; */
+  /* background-color: mintcream; */
+  /* margin-top: 60px;
+  margin-left: 5px; */
+ /* } */
+
+ /* .pic{
+   grid-area: main2;
+   align-self: end;
+   justify-self: end;
+   background-color: lightseagreen;
+ } */
+
+ /* .hello {
+  grid-area: header;
+  align-self: start;
+  justify-self: start;
+  width: 100%;
+  background-color: maroon;
+ } */

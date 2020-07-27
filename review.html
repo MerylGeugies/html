@@ -5,22 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
-  <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="werk.html">Werk</a>
-    <a href="studie.html">Studie</a>
-    <a href="skills.html">Skills</a>
-    <a href="review.html">Review</a>
-    <a href="contact.html">Contact</a>
-  </div>
+  <div class="container">
+    <div class="row">
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="werk.html">Werk</a>
+        <a href="studie.html">Studie</a>
+        <a href="skills.html">Skills</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html">Contact</a>
+      </div>   
+    </div>
 
-  <p class="main">review</p>
+    <div class="row">
+      <form>
+        <label for="name"> Naam </label> <br>
+        <input type="text" id="name" name="name" value="Voornaam Achternaam"> <br>
+        
+        <label for="connection"> Connectie </label> <br>
+        <input type="text" id="connection" name="connection" value="Ik ken Meryl van..."> <br>
+        
+        <label for="review"> Review </label> <br>
+        <input type="text" id="review" name="review" value="Review"> <br>
+        <input type="submit" value="Zend">
+      </form>
+    </div>
+
+    <div class="row justify-content-center"> 
+      <div class="col-12">
+        <footer> Made by Meryl Geugies </footer>
+      </div>
+  </div>
 
 </body>
 </html>
